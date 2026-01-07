@@ -2,7 +2,7 @@
 # AI Resume Analyzer 📝
 The AI Resume Analyzer is an intelligent web-based tool designed to help job seekers evaluate and enhance their resumes by comparing them directly against a specific job description. Leveraging advanced AI models, this tool simulates how Applicant Tracking Systems (ATS) and recruiters assess your resume for relevance, alignment, and suitability for a role. Completely in a single Python file.
 
-Watch our [Youtube Tutorial](https://youtu.be/XfoHr9GivCs) for a Demo and detailed explanation of installation steps and code.
+
 
 ## 🔍 What Does This Project Do?
 ### 1. Resume Text Extraction
@@ -46,7 +46,7 @@ Make sure you have Python and Git installed.
 ### 1️⃣ **Clone the Repository**
 
 ```bash
-git clone https://github.com/Altoks-AI/AI-Resume-Analyzer.git
+git clone
 ```
 ```
 cd FolderName
@@ -84,23 +84,4 @@ Once the app starts, it will automatically open in your default web browser at:
 http://localhost:8501
 ```
 ---
-✅ Now you’re all set!
-Upload a resume, paste a job description, and let the AI analyze your resume for job-fit and provide suggestions. 
 
-## Possible Changes you may want to make:
-
-- Change the prompt in main.py file to get the results in the way you want.
-- Embedding Model is "sentence-transformers/all-mpnet-base-v2" ,Change to the model you desire (Ex: BERT, SBERT,etc)
-- Currently using Groq API and LLM model is "llama-3.3-70b-versatile", Change is model is removed or use other API's like OpenAI-GPT-4o model.
-- Change the Title, Labels and other names and display formats according to your liking.
-
-
-## Contact us :
-
-- Join our [Discord Community](https://discord.com/invite/qbhACtUB)
-- Our Company Website: [Altoks AI]( https://altoks.vercel.app/)
-
-🔗 Follow us everywhere:
-- [Linkedin](https://www.linkedin.com/in/altoks-ai/)
-- [Instagram](https://www.instagram.com/altoks_ai/)
-- [X (Twitter)](https://x.com/Altoks_AI)
